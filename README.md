@@ -1,1 +1,5 @@
 # ChinaIPRouteTable
+
+使用openwrt的wireguard进行分流国内外的ip
+修改脚本里边的本地路由为自己的实际值即可，运行脚本生成ip tables命令，在路由器端执行。
+配合doh的dns效果更好。支持subnet的DNS能解决国内外cdn的问题。
